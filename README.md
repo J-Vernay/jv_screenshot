@@ -24,6 +24,9 @@ cmake --build .            # compile the project where we are (in 'build' subdir
 ./jv_screenshot_example    # run the resulting executable
 ```
 
+A file named `screenshot.ppm` should have appeared in the `build` subdirectory containing
+a screenshot taken when the example was runned.
+
 # How to contribute
 
 Currently, only X11 is supported. If you have skills in Windows programming, a Windows port
